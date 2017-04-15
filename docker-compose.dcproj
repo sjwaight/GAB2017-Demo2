@@ -18,5 +18,6 @@
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
     <None Include="docker-compose.yml" />
+    <None Include="k8s\gab-api-demo-deployment.yml" />
   </ItemGroup>
 </Project>
