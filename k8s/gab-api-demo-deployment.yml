@@ -23,7 +23,7 @@ spec:
         app: gabdemo
     spec:
       containers:
-      - image: YOUR_ACR_HERE.azurecr.io/gab2017/siliconvalve.gab2017.demowebcore:latest
+      - image: YOUR_ACR_HERE.azurecr.io/gab2017/siliconvalve.gab2017.demowebcore:1.0
         name: siliconvalve-gab2017-demowebcore
         ports:
         - containerPort: 80

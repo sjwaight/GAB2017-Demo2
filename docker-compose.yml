@@ -2,7 +2,7 @@ version: '2'
 
 services:
   siliconvalve.gab2017.demowebcore:
-    image: siliconvalve.gab2017.demowebcore
+    image: siliconvalve.gab2017.demowebcore:1.0
     build:
       context: ./SiliconValve.Gab2017.DemoWebCore
       dockerfile: Dockerfile
